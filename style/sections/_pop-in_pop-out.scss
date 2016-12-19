@@ -1,6 +1,7 @@
 .pop-in {
-    width: 100%;
+    width: 50%;
     height: 500px;
+    float: left;
     position: relative;
     box-sizing: border-box;
     padding: 15px;
@@ -14,10 +15,7 @@
     -webkit-transform: scale(.9, .9);
     transform: scale(.9, .9); // Customize effect
     overflow: auto;
-    h1 {
-        margin-top: 150px;
-        margin-bottom: 20px;
-    }
+    padding: 100px;
     @keyframes pop-in {
         100% {
             -ms-transform: scale(1, 1);
@@ -35,9 +33,12 @@
 }
 
 .pop-out {
-    width: 100%;
+    width: 50%;
     height: 500px;
+    float: left;
     position: relative;
+    text-align: center;
+    color: $color-white;
     background-color: $color-green;
     -webkit-animation: pop-out 1s forwards;
     animation: pop-out 1s forwards;

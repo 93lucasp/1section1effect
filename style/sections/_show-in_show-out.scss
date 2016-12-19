@@ -1,0 +1,167 @@
+.show-in {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: $color-orange;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    color: $color-white;
+    -webkit-animation: show-in 1s forwards;
+    animation: show-in 1s forwards;
+    padding: 100px;
+    @keyframes show-in {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: .1;
+        }
+        20% {
+            opacity: .2;
+        }
+        30% {
+            opacity: .3;
+        }
+        40% {
+            opacity: .4;
+        }
+        50% {
+            opacity: .5;
+        }
+        60% {
+            opacity: .6;
+        }
+        70% {
+            opacity: .7;
+        }
+        80% {
+            opacity: .8;
+        }
+        95% {
+            opacity: .9;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes show-in {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: .1;
+        }
+        20% {
+            opacity: .2;
+        }
+        30% {
+            opacity: .3;
+        }
+        40% {
+            opacity: .4;
+        }
+        50% {
+            opacity: .5;
+        }
+        60% {
+            opacity: .6;
+        }
+        70% {
+            opacity: .7;
+        }
+        80% {
+            opacity: .8;
+        }
+        95% {
+            opacity: .9;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+.show-out {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: $color-orange;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    color: $color-white;
+    -webkit-animation: show-out 1s forwards;
+    animation: show-out 1s forwards;
+    padding: 100px;
+    @keyframes show-out {
+        0% {
+            opacity: 1;
+        }
+        10% {
+            opacity: .9;
+        }
+        20% {
+            opacity: .8;
+        }
+        30% {
+            opacity: .7;
+        }
+        40% {
+            opacity: .6;
+        }
+        50% {
+            opacity: .5;
+        }
+        60% {
+            opacity: .4;
+        }
+        70% {
+            opacity: .3;
+        }
+        80% {
+            opacity: .2;
+        }
+        95% {
+            opacity: .1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @-webkit-keyframes show-out {
+        0% {
+            opacity: 1;
+        }
+        10% {
+            opacity: .9;
+        }
+        20% {
+            opacity: .8;
+        }
+        30% {
+            opacity: .7;
+        }
+        40% {
+            opacity: .6;
+        }
+        50% {
+            opacity: .5;
+        }
+        60% {
+            opacity: .4;
+        }
+        70% {
+            opacity: .3;
+        }
+        80% {
+            opacity: .2;
+        }
+        95% {
+            opacity: .1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+}
