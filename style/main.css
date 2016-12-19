@@ -18,18 +18,17 @@ a {
   float: left;
   position: relative;
   box-sizing: border-box;
-  padding: 15px;
   background-color: #33cc33;
   color: #ffffff;
   text-align: center;
   overflow-x: hidden;
+  overflow: auto;
+  padding: 100px;
   -webkit-animation: pop-in 1s forwards;
   animation: pop-in 1s forwards;
   -ms-transform: scale(0.9, 0.9);
   -webkit-transform: scale(0.9, 0.9);
-  transform: scale(0.9, 0.9);
-  overflow: auto;
-  padding: 100px; }
+  transform: scale(0.9, 0.9); }
 @keyframes pop-in {
   100% {
     -ms-transform: scale(1, 1);
@@ -45,9 +44,13 @@ a {
   height: 500px;
   float: left;
   position: relative;
-  text-align: center;
-  color: #ffffff;
+  box-sizing: border-box;
   background-color: #33cc33;
+  color: #ffffff;
+  text-align: center;
+  overflow-x: hidden;
+  overflow: auto;
+  padding: 100px;
   -webkit-animation: pop-out 1s forwards;
   animation: pop-out 1s forwards;
   -ms-transform: scale(1, 1);
